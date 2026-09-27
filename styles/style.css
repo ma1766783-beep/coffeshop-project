@@ -6,6 +6,13 @@
     box-sizing: border-box;
 }
 
+.desktop-home{
+    background-color: #FEFCF7;
+    max-width: 1440px;
+    max-width: 2673px;
+    flex-direction: column;
+}
+
 header{
     width: calc(100% - 80px);
     margin: 0 auto;
@@ -301,10 +308,14 @@ p{
     }
    
    footer{
+   max-width: 1280px;
+    margin-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 48px 80px;
+    padding:  80px;
+    margin: 0 auto;
+    margin-bottom: 40px;
     background-color:#333D4B;
 
     nav{
@@ -645,5 +656,3 @@ footer{
 }
 }
 
-
-    
